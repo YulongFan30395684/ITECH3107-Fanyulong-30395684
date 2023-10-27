@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.AttendanceFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:text="@string/attendance_list"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:background="#6B82FF"
+        android:paddingLeft="20dp"/>
+    <ListView
+        android:id="@+id/lv_attendance_course"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.28"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+        android:gravity="center_vertical"
+        android:background="#6B82FF"
+        />
+
+    <TextView
+        android:id="@+id/ChosenCourse"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.03"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Choosen ****"/>
+
+    <Spinner
+        android:id="@+id/sp_week"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:entries="@array/all_weeks"
+        android:spinnerMode="dropdown"
+        android:minHeight="48dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+        android:gravity="center_vertical"
+        android:background="#6B82FF"
+        />
+
+    <ListView
+        android:id="@+id/lv_attendance_student"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_showAttendStudent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:textAllCaps="true"
+        android:minHeight="48dp"
+        android:text="check attendance list"/>
+    <Button
+        android:id="@+id/btn_checkAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:textAllCaps="true"
+        android:minHeight="48dp"
+        android:text="check student in course"/>
+    <Button
+        android:id="@+id/btn_saveAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:textAllCaps="true"
+        android:minHeight="48dp"
+        android:text="@string/save_attendance"/>
+
+
+
+</LinearLayout>
