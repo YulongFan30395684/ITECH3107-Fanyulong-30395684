@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="all_weeks">
+        <item>WEEK 1</item>
+        <item>WEEK 2</item>
+        <item>WEEK 3</item>
+        <item>WEEK 4</item>
+        <item>WEEK 5</item>
+        <item>WEEK 6</item>
+        <item>WEEK 7</item>
+        <item>WEEK 8</item>
+        <item>WEEK 9</item>
+        <item>WEEK 10</item>
+        <item>WEEK 11</item>
+        <item>WEEK 12</item>
+
+    </string-array>
+</resources>
